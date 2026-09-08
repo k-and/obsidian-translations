@@ -582,22 +582,6 @@ translation=Sireg tiɣṛiwin n tuɣalin URI
 original=Enable the use of x-callback-url through x-success or x-error when handling Obsidian URIs.
 translation=Sermed aseqdec n x-callback-url s x-success neɣ x-error mi ara tsefrekḍ URI n Obsidian.
 
-[setting.file.label-obsidian-uri]
-original=Obsidian URI
-translation=URI n Obsidian
-
-[setting.file.label-obsidian-uri-desc]
-original=Manage trusted actions and configure URI behavior.
-translation=Sefrek tigawin yettwamnen yerna swel tikli n URI.
-
-[setting.file.label-trusted-uri-actions]
-original=Trusted actions
-translation=Tigawin yettwamnen
-
-[setting.file.label-no-trusted-uri-actions]
-original=No trusted actions yet. Approved URI actions will appear here.
-translation=Ulac tigawin yettwamnen yakan. Tigawin n URI yettwaqeblen ad d-banent dagi.
-
 [setting.appearance.name]
 original=Appearance
 translation=Timeẓri
@@ -1422,6 +1406,10 @@ translation=Ffeɣ
 original=Log in
 translation=Kcem
 
+[setting.account.title-log-in]
+original=Log in to Obsidian
+translation=
+
 [setting.account.label-sign-up]
 original=Sign up
 translation=Jerred
@@ -1451,7 +1439,7 @@ original=Forgot password?
 translation=Tettuḍ awal n uɛeddi?
 
 [setting.account.button-login]
-original=Login
+original=Log in
 translation=Kcem
 
 [setting.account.message-empty-email]
@@ -2042,6 +2030,14 @@ translation=Ugar n tixtiṛiyin n tfeggagt n yifecka
 original=Insert attachment
 translation=Ger amedday
 
+[setting.mobile-toolbar.option-attach-camera]
+original=Take photo
+translation=
+
+[setting.mobile-toolbar.option-attach-file]
+original=Choose file
+translation=
+
 [editor.search.placeholder-find]
 original=Find...
 translation=Af-d...
@@ -2149,6 +2145,10 @@ translation=Kkes awennit n uḍar ysebter d temselɣut
 [editor.menu.reset-size]
 original=Reset size
 translation=Wennez tiddi
+
+[editor.menu.remove-image]
+original=Remove image
+translation=
 
 [editor.menu.delete-image]
 original=Delete image
@@ -2269,6 +2269,10 @@ translation=D awezɣi asali n usiɣzef {{plugin}} v{{version}}. Lqem-a yettwamel
 [interface.msg-failed-to-load-file]
 original=Failed to open “{{filepath}}”
 translation=Yecceḍ ulday n “{{filepath}}”
+
+[interface.msg-failed-to-close-view]
+original=The “{{name}}” view encountered an error while closing
+translation=
 
 [interface.msg-failed-to-open-href]
 original=Cannot open location “{{href}}”
@@ -2441,6 +2445,34 @@ translation=Taseddaṛt
 [interface.formatting.label-insert]
 original=Insert
 translation=Ger
+
+[interface.formatting.highlight-color-default]
+original=Default
+translation=
+
+[interface.formatting.highlight-color.red]
+original=Red
+translation=
+
+[interface.formatting.highlight-color.orange]
+original=Orange
+translation=
+
+[interface.formatting.highlight-color.yellow]
+original=Yellow
+translation=
+
+[interface.formatting.highlight-color.green]
+original=Green
+translation=
+
+[interface.formatting.highlight-color.blue]
+original=Blue
+translation=
+
+[interface.formatting.highlight-color.purple]
+original=Purple
+translation=
 
 [interface.formatting.insert-link]
 original=Add link
@@ -3275,7 +3307,7 @@ original=Secured with the strongest end-to-end encryption standard.
 translation=Yettwaḥrez s wawal n uwgelhen s wudem tizeɣt iǧehden seg yixef ɣer yixef.
 
 [interface.start-screen.mobile.label-sync-pro3]
-original=Requires an Obsidian account.
+original=Requires a paid subscription.
 translation=Yesra amiḍan Obsidian.
 
 [interface.start-screen.mobile.label-icloud-con1]
@@ -3878,6 +3910,10 @@ translation=Qluqel uknan
 original=Toggle highlight
 translation=Qluqel asebruraq
 
+[commands.toggle-highlight-color]
+original=Toggle {{color, lowercase}} highlight
+translation=
+
 [commands.toggle-comments]
 original=Toggle comment
 translation=Qluqel awennit 
@@ -4063,7 +4099,7 @@ original=It will be moved to your Obsidian trash, which is located in the “.tr
 translation=Ad yettwasmutti ɣer yiḍumman-inek·inem n Obsidian, yezgan deg ukaram uffir “.trash” deg ukaram-ik·im n weḥraz. 
 
 [dialogue.label-permanent-delete]
-original=The file will be permanent deleted.
+original=The file will be permanently deleted.
 translation=Afaylu ad yettwakkes s wudem imezgi. 
 
 [dialogue.label-non-empty-folder]
@@ -4097,22 +4133,6 @@ translation=Llan tura {{count}} n yiseɣwan i d-yemmalen ɣer ufaylu-a.
 [dialogue.label-delete-file]
 original=Delete file
 translation=Kkes afaylu
-
-[dialogue.label-uri-action-title]
-original=Run action from external link?
-translation=Selkem tigawt seg useɣwen uffiɣ?
-
-[dialogue.label-uri-action-intro]
-original=The “{{action}}” action is about to run. Only continue if you trust the link's source.
-translation=Tigawt “{{action}}” qrib ad tselḥu. Kemmel kan ma yella tumneḍ aɣbalu n useɣwen.
-
-[dialogue.label-uri-action-intro-from-plugin]
-original=The “{{source}}” plugin is about to run the “{{action}}” action. Only continue if you trust the link's source.
-translation=Asiɣzaf “{{source}}” qrib ad iselḥu tigawt “{{action}}”. Kemmel kan ma yella tumneḍ aɣbalu n useɣwen.
-
-[dialogue.label-uri-action-dont-ask-again]
-original=Don't ask again for “{{action}}”
-translation=Ur d-steqsay ara daɣen ɣef “{{action}}”
 
 [dialogue.label-download-attachments]
 original=Download attachments
@@ -4173,14 +4193,6 @@ translation=Semmet
 [dialogue.button-allow]
 original=Allow
 translation=Sireg
-
-[dialogue.button-allow-once]
-original=Allow once
-translation=Sireg tikelt nniḍen
-
-[dialogue.button-always-allow]
-original=Always allow
-translation=Sirig yal tikelt
 
 [dialogue.button-skip]
 original=Skip
@@ -9657,6 +9669,26 @@ translation=Eṭṭef
 [plugins.bases.cards.label-image-aspect-ratio]
 original=Image aspect ratio
 translation=Assaɣ n tmuɣli n tugna
+
+[plugins.bases.kanban.name]
+original=Kanban
+translation=
+
+[plugins.bases.kanban.action-reset-order]
+original=Reset order
+translation=
+
+[plugins.bases.kanban.label-column-width]
+original=Column width
+translation=
+
+[plugins.bases.kanban.label-hide-empty-groups]
+original=Hide empty columns
+translation=
+
+[plugins.bases.kanban.label-group-by-required]
+original=Choose a property to group by from the sort menu
+translation=
 
 [plugins.bases.table.name]
 original=Table
